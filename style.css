@@ -1,0 +1,122 @@
+body {
+  background-color: #000;
+}
+
+.root {
+  width: 100%;
+  max-width: 800px;
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: #000;
+}
+
+.hWrapper {
+  margin-bottom: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.header {
+  font-size: 24px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  max-width: max-content;
+  gap: 30px;
+}
+
+form {
+  display: flex;
+  width: 800px;
+  flex-direction: column;
+  background-color: #252525;
+  border-radius: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: width 0.3s ease;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: aliceblue;
+}
+
+input[type="text"],
+input[type="file"] {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: aliceblue;
+  color: #333;
+  outline: none;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="file"]:focus {
+  border-color: #333;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #222;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  align-self: center;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+.display-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  width: 370px;
+}
+
+.card {
+  border-radius: 10px;
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+  background-color: #252525;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card img {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 10%;
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin: 5px 0;
+  color: aliceblue;
+}  
